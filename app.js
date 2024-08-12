@@ -1,17 +1,17 @@
-        // Chapter # 4 LEGAL AND ILLEGAL
+        // Chapter # 4 
 
         // Declare 3 variables in one statement
-        var a = 1, b = 2, c = 3;
+        var num1 = 1, num2 = 2, num3 = 3;
 
         // Declare 5 legal & 5 illegal variable names
-        var legal1 = "value", $legal2 = "value", _legal3 = "value", legalName4 = "value", legalName5 = "value";
+        var fruit1 = "apple", $fruit2 = "mango", _fruit3 = "banana", fruitName4 = "orange", fruit_name5 = "watermelon";
 
         // The following are illegal variable names:
-        // var 1illegal = "value";  // Starts with a number
-        // var #illegal = "value";  // Contains a special character (#)
-        // var illegal-variable = "value";  // Contains a hyphen
-        // var var = "value";  // Reserved keyword
-        // var @illegal = "value";  // Contains a special character (@)
+        // var 1fruit = "apple"; 
+        // var #fruit2 = "mango";
+        // var fruit-name3 = "banana"; 
+        // var class = "alpha";  // Reserved keyword
+        // var @fruit = "orange"; 
 
         // Displaying the heading
         document.write( "<h1>Rules for naming JS variables </h1>");
